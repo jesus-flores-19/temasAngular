@@ -8,7 +8,7 @@ import { NgstyleComponent } from './componentes/ngstyle/ngstyle.component';
 @NgModule({
   declarations: [
     AppComponent,
-    NgstyleComponent
+    NgstyleComponent,
   ],
   imports: [
     BrowserModule,
