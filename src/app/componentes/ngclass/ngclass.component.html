@@ -1,1 +1,9 @@
-<p>ngclass works!</p>
+<div class="alert" [ngClass]="alerta">
+    <strong>Alerta</strong> vamos a terminar esto pronto.
+</div>
+<div class="d-flex gap-1">
+    <button (click)="changeClass(1)" class="ms-auto btn btn-primary">Primary</button>
+    <button (click)="changeClass(2)" class="btn btn-secondary ">Secondary</button>
+    <button (click)="changeClass(3)" class="btn btn-success ">Success</button>
+    <button (click)="changeClass(4)" class="btn btn-danger ">Danger</button>
+</div>

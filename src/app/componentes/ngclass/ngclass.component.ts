@@ -9,6 +9,25 @@ export class NgclassComponent implements OnInit {
 
   constructor() { }
 
+  alerta: string = "alert-primary"
+
+  changeClass(i: number){
+    switch (i) {
+      case 1:
+        this.alerta = "alert-primary"
+      break;
+      case 2:
+        this.alerta = "alert-secondary"
+      break;
+      case 3:
+        this.alerta = "alert-success"
+      break;
+      case 4:
+        this.alerta = "alert-danger"
+      break;
+    }
+  }
+
   ngOnInit() {
   }
 
