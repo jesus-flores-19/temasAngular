@@ -7,3 +7,10 @@
     <button (click)="changeClass(3)" class="btn btn-success ">Success</button>
     <button (click)="changeClass(4)" class="btn btn-danger ">Danger</button>
 </div>
+<hr>
+<button class="btn btn-primary" (click)="ejecutar()" [disabled]="loading" style="font-size: 18px; line-height: 24px;">
+    <i *ngIf="loading" class="material-icons rotated" style="vertical-align: bottom;">sync</i>
+    <i *ngIf="!loading" class="material-icons" style="vertical-align: bottom;">save</i>
+    <span *ngIf="!loading"> Guardar cambios</span>
+    <span *ngIf="loading"> Espere cambios</span>
+</button>

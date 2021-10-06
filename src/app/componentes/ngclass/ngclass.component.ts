@@ -10,6 +10,8 @@ export class NgclassComponent implements OnInit {
   constructor() { }
 
   alerta: string = "alert-primary"
+  loading: boolean = false;
+
 
   changeClass(i: number){
     switch (i) {
@@ -26,6 +28,11 @@ export class NgclassComponent implements OnInit {
         this.alerta = "alert-danger"
       break;
     }
+  }
+
+  ejecutar(){
+    this.loading = true;
+    setTimeout( ()=> this.loading=false, 4000);
   }
 
   ngOnInit() {
