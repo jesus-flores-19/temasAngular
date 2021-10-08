@@ -8,6 +8,7 @@ import { NgclassComponent } from './componentes/ngclass/ngclass.component';
 import { ResaltadoDirective } from './directivas/resaltado.directive';
 import { NgswitchComponent } from './componentes/ngswitch/ngswitch.component';
 import { HomeComponent } from './componentes/home/home.component';
+import { UsuariosComponent } from './componentes/usuarios/usuarios.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { HomeComponent } from './componentes/home/home.component';
     ResaltadoDirective,
     NgswitchComponent,
     HomeComponent,
+    UsuariosComponent,
   ],
   imports: [
     BrowserModule,
