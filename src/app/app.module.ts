@@ -10,6 +10,9 @@ import { NgswitchComponent } from './componentes/ngswitch/ngswitch.component';
 import { HomeComponent } from './componentes/home/home.component';
 import { UsuariosComponent } from './componentes/usuarios/usuarios.component';
 import { NavbarComponent } from './componentes/shared/navbar/navbar.component';
+import { UsuariosNuevosComponent } from './componentes/usuarios/usuarios-nuevos.component';
+import { UsuariosEditarComponent } from './componentes/usuarios/usuarios-editar.component';
+import { UsuariosDetalleComponent } from './componentes/usuarios/usuarios-detalle.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +24,9 @@ import { NavbarComponent } from './componentes/shared/navbar/navbar.component';
     HomeComponent,
     UsuariosComponent,
     NavbarComponent,
+    UsuariosNuevosComponent,
+    UsuariosEditarComponent,
+    UsuariosDetalleComponent,
   ],
   imports: [
     BrowserModule,
