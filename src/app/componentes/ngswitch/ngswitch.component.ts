@@ -9,6 +9,8 @@ export class NgswitchComponent implements OnInit {
 
   constructor() { }
 
+  nombre: string = "jesus"
+
   ngOnInit() {
   }
 

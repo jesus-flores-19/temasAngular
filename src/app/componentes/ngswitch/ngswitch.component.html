@@ -1,1 +1,17 @@
-<p>ngswitch works!</p>
+<div [ngSwitch]="nombre">
+    <div *ngSwitchCase="'angel'">
+        <p>Soy <strong>Angel Max</strong> y estoy mamadisimo</p>
+    </div>
+    <div *ngSwitchCase="'jesus'">
+        <p>Hola mi nombre es <strong>Jesus</strong>, y me gusta escuchar música</p>
+    </div>
+    <div *ngSwitchCase="'luis'">
+        <p>Soy <strong>Luis</strong> pero tu me puedes decir boby duvalin</p>
+    </div>
+</div>
+<div class="d-flex mt-1">
+    <button (click)="nombre = 'jesus'" class="ms-auto btn btn-primary">Jesus</button>
+    <button (click)="nombre = 'luis'" class="btn btn-danger ">Luis</button>
+    <button (click)="nombre = 'angel'" class="btn btn-info ">Angel</button>
+
+</div>
