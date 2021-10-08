@@ -1,10 +1,15 @@
-import { Directive } from '@angular/core';
+import { Directive, ElementRef } from '@angular/core';
 
 @Directive({
   selector: '[appResaltado]'
 })
 export class ResaltadoDirective {
 
-  constructor() { }
+  constructor(public element: ElementRef) { 
+    console.log("Directiva activada")
+    this.element.nativeElement.style.backgroundColor = "yellow"
+  }
+
+
 
 }
