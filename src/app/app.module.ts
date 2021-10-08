@@ -9,6 +9,7 @@ import { ResaltadoDirective } from './directivas/resaltado.directive';
 import { NgswitchComponent } from './componentes/ngswitch/ngswitch.component';
 import { HomeComponent } from './componentes/home/home.component';
 import { UsuariosComponent } from './componentes/usuarios/usuarios.component';
+import { NavbarComponent } from './componentes/shared/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { UsuariosComponent } from './componentes/usuarios/usuarios.component';
     NgswitchComponent,
     HomeComponent,
     UsuariosComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,
