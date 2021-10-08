@@ -1,27 +1,18 @@
-# TemasAngular
+# Directivas
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
+Este proyecto fue muy teórico, e introductorio a lo que son las directivas. Estas en pocas palabras extienden la funcionalidad del HTML usando para ello una nueva sintaxis. Con ella podemos usar lógica que será ejecutada en el DOM (Document Object Model).
+Las cuales llegamos a poner en practica fueron *directivas de atributo*, por ejemplo, **ngStyle y ngClass**. Que nos permiten alterar la aparencia o comportamiento de un elemento. 
 
-## Development server
+Las *directivas estructurales* son las que nos permiten mediante condicionales modificar la aparencia o comportamiento de un elemento o un grupo de elementos. Anteriormente ya habiamos trabajado con ellos, estos son **ngFor**, **ngIf** y **ngSwitch**.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Otro tema de interes son los metodos que involucran el ciclo de vida de un componente. Estos son *OnInit, OnChanges, DoCheck, AfterContentInit, AfterContentChecked, AfterViewChecked, AfterViewInit, OnDestroy*, creo firmemente que alguno de estos facilitara el trabajo de algunos proyectos que traemos en mente. 
 
-## Code scaffolding
+# Rutas
+Por ultimo, un tema muy interesante es la creación de rutas padres e hijas, esto con componentes respectivamente. El uso de la etiqueta *router-outlet* dentro de rutas hijas me llamo mucho la atención. 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Ademas..
+- Al crear un componente, podemos agregar --flat para no crear una carpeta.
+- Al crear un componente, podemos agregar -is para no crear el archivo de estilos.
+- Al crear un componente, podemos agregar -it para no crear el template.
+- Al crear un componente, podemos agregar --spec=false para no crear el archivo de testeo.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
